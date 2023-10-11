@@ -2,7 +2,7 @@
 
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
 }
 
 html {
@@ -185,7 +185,7 @@ section img {
     /* z-index: 0;  */
     filter: brightness(0.5);
     border-radius: 5px;
-
+   
 
 
 
@@ -282,7 +282,7 @@ section img {
     transition: .5s;
     background-color: black;
     width: 100%;
-
+    
 
 
 }
@@ -461,7 +461,7 @@ p {
     margin-bottom: 5px;
 }
 
-.form input {
+.form input,select{
 
     width: 90%;
     height: 60px;
@@ -472,8 +472,14 @@ p {
     transition: .2s;
     background-color: transparent;
     color: white;
+    font-weight: bold;
 
+}
 
+form option{
+
+    color: black;
+    background-color:white;
 }
 
 .form input::-webkit-input-placeholder{
@@ -511,7 +517,7 @@ p {
 
 .form form {
     width: 100%;
-    height: 300px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
